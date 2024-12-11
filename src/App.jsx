@@ -1,9 +1,10 @@
 import Navbar from "./components/Navbar";
 
-export default function App() {
+function App() {
 	return (
 		<>
 			<Navbar />
 		</>
 	);
 }
+export default App;
