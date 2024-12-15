@@ -48,7 +48,7 @@ const Navbar = () => {
 
 				{/* mobile menu items*/}
 				{menuOpen && (
-					<div className="lg:hidden fixed right-0 flex flex-col justify-center items-center  z-50 w-full p-12 bg-neutral-900">
+					<div className="lg:hidden fixed right-0 flex flex-col justify-center items-center  z-100 w-full p-12 bg-neutral-900">
 						<ul>
 							{" "}
 							{navItems.map((item, index) => (
